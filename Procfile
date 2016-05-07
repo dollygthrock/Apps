@@ -1,1 +1,1 @@
-web: bundle exec ruby practice_app.rb
+web: bundle exec ruby app.rb
