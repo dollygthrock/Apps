@@ -1,0 +1,12 @@
+<h2 style="font-family:verdana;color:red">Is your order correct?</h2>
+<% order.each do |item| %>
+	<%=item%>
+<br>
+<% end %>
+<br>
+<form action = "/correct" method = "post">
+	<input type = "radio" name ="correct" value="Yes">Yes
+	<br />
+	<input type = "radio" name ="correct" value="No">No
+<input type = "submit">
+</form>
